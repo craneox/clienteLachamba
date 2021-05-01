@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lachamba</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <form>
+        <label for="id">id del empleado a actualizar: </label><input type="text" id="id"><br>
+        <label for="correo">correo: </label><input type="text" id="correo"><br>
+        <label for="cargo">cargo: </label><input type="text" id="cargo"><br>
+        <label for="salario">salario: </label><input type="text" id="salario"><br>
+        <label for="entrada">hora entrada: </label><input type="text" id="entrada"><br>
+        <label for="salida">hora salida: </label><input type="text" id="salida"><br>
+        <input type="button" value="enviar" onclick="soap()">
+    </form>
+    <script src="soapActualizar.js"></script>
+</body>
+</html>
